@@ -1,0 +1,10 @@
+Afazeres
+
+1. Botão de Remover Ok
+Falta deixar apenas admin remover journals e editions... o resto todos podem deletar.
+
+4. Rever os links externos... quebrados!??? rever?
+
+7. Paginar o resultado da busca... nao tenho ideia...
+
+	
