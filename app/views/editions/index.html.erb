@@ -27,10 +27,6 @@
   </div>
 </div>
 
-
-
-
-
 <br><br>
 
 <h1>Edições deste periódico</h1>
@@ -39,7 +35,7 @@
   <thead>
     <tr>
       <th class="text-center" style="width: 70%">Edição</th>
-      <th class="text-center">Data da edição</th>
+      <th class="text-center">Ano da Edição</th>
     </tr>
   </thead>
 
@@ -47,7 +43,7 @@
     <% @editions.each do |edition| %>
       <tr>        
         <td><%= link_to edition.e_name, edition_articles_path(edition.id) %></td>
-        <td><%= edition.e_date %></td>
+        <td><%= edition.e_date.year %></td>
       </tr>
     <% end %>
   </tbody>
