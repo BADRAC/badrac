@@ -4,7 +4,8 @@ class Article < ActiveRecord::Base
   has_and_belongs_to_many :authors
   has_and_belongs_to_many :keywords
 
-  validates :title, :abstract, presence: true
+  #validates :title, :abstract, presence: true
+  validates :title, presence: true
 
   validates :url,
   			presence: true, 
